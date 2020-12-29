@@ -1,6 +1,6 @@
 const app = require("../app");
 const socket = require('../socket');
-const port = normalizaPort(process.env.PORT || '9229');
+const port = normalizaPort(process.env.PORT || '3000');
 
 
 function normalizaPort(val) {
