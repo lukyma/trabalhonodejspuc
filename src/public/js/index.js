@@ -8,6 +8,7 @@ window.onload = function () {
     equal.onclick = function(){
         var exp = prevResult.value;
         if(exp){
+            console.log(socket.readyState);
             if(socket.readyState === 1){
                 socket.send(exp);
             }
