@@ -19,7 +19,7 @@ wss.on("connection", (ws) => {
 });
 
 //Inicia o servidor
-server.listen(process.env.PORT2 || 90909, () => {
+server.listen(65336, () => {
   console.log("Servidor conectado: " + server.address().port);
 });
 

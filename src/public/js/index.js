@@ -3,7 +3,7 @@ window.onload = function () {
     var resultOperation = document.getElementById("resultOperation");
     var statusSocket = document.getElementById("statusSocket");
     var equal = document.getElementById("equal");
-    var socket = new WebSocket("wss://hidden-beyond-24619.herokuapp.com:90909/");
+    var socket = new WebSocket("wss://hidden-beyond-24619.herokuapp.com:65336");
 
     equal.onclick = function(){
         var exp = prevResult.value;
