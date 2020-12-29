@@ -3,18 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
-  "type": "module",
   "scripts": {
-    "start": "nodemon --experimental-modules --es-module-specifier-resolution=node ./src/init/server.js",
+    "start": "nodemon ./src/init/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.1",
     "jquery": "^3.5.1",
-    "nodeaula2": "^1.4.1",
+    "nodeaula2": "^1.4.2",
     "ws": "^7.4.1"
   },
   "devDependencies": {

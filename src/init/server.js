@@ -1,5 +1,5 @@
-import app from "../app.js";
-import socket from '../socket';
+const app = require("../app");
+const socket = require('../socket');
 const port = normalizaPort(process.env.PORT || '9229');
 
 

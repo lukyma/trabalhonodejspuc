@@ -1,7 +1,7 @@
-import express from "express";
-import http from "http";
-import WebSocket from "ws";
-import arithmeticModule from "nodeaula2/modules/arithmeticModule";
+const express = require("express");
+const http = require("http");
+const WebSocket = require("ws");
+const arithmeticModule = require("nodeaula2/modules/arithmeticModule");
 const app = express();
 
 //Inicializa um servidor HTTP orquestrado pelo express
@@ -23,6 +23,4 @@ server.listen(process.env.PORT || 9090, () => {
   console.log("Servidor conectado:", server.address().port);
 });
 
-export default {
-    wss
-}
+module.exports = wss;

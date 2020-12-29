@@ -1,9 +1,3 @@
-import { fileURLToPath } from 'url';
-import { dirname } from 'path';
-
-const __filename = fileURLToPath(import.meta.url);
-const __dirname = dirname(__filename);
-
 const getResultExpression = (req, res, next) => {
     res.status(200).send("Sucesso");
 };
@@ -13,7 +7,7 @@ const getCalc = (req, res, next) => {
     //res.status(200).send('Requisição recebida com sucesso! Teste');
 };
 
-export default {
+module.exports = {
     getResultExpression,
     getCalc
 }
