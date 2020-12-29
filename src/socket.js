@@ -19,8 +19,8 @@ wss.on("connection", (ws) => {
 });
 
 //Inicia o servidor
-server.listen(process.env.PORT || 9090, () => {
-  console.log("Servidor conectado:", server.address().port);
+server.listen(process.env.PORT2 || 90909, () => {
+  console.log("Servidor conectado: " + server.address().port);
 });
 
 module.exports = wss;
