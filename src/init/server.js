@@ -16,6 +16,6 @@ function normalizaPort(val) {
     return false;
 }
 
-app.listen(port, function () {
-    console.log(`app listening on port ${port}`)
-})
+// app.listen(port, function () {
+//     console.log(`app listening on port ${port}`)
+// });
